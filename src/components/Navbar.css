@@ -1,0 +1,11 @@
+.nav-cover{
+    position: fixed;
+    z-index: 2;
+    margin-top: -20px;
+    width: 100%;
+    background-color: #fff;
+}
+.ant-input-sm{
+    background-color: #fafafa !important;
+    height: 80% !important; 
+}

@@ -1,0 +1,42 @@
+.display-topright {
+    top: 0;
+    position: absolute;
+    right: 15px;
+    font-size: 2em;
+    color: #999;
+  }
+  .display-topright:hover,
+  .name:hover {
+    cursor: pointer;
+  }
+  .avatar {
+    margin: 15px 10px;
+  }
+  .btn {
+    margin: 20px 0px;
+    width: 130px;
+  }
+  .sug {
+    height: 220px;
+    width: 160px;
+    margin: 10px;
+  }
+  @media screen and (max-width: 767px){
+    .sug{
+      height: 220px;
+      width: 120px;
+      margin: 10px 5px;
+    }
+    .btn {
+      margin: 20px 0px;
+      width: 90px;
+    }
+  }
+  .ant-card-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .ant-card-meta-title{
+      text-align: center;
+  }

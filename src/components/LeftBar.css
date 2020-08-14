@@ -1,0 +1,10 @@
+.left-navbar{
+    position: fixed;
+    margin-left: 70%;
+    margin-top: 50px;
+}
+@media screen and (max-width: 768px){
+    .left-navbar{
+      display:none;
+    }
+  }

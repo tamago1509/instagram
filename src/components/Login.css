@@ -1,0 +1,20 @@
+.form-style {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .form-cover {
+    border: 1px solid #ddd;
+    padding: 30px;
+    text-align: center;
+  }
+  .forget {
+    text-decoration: underline;
+    color: #0162a1;
+    cursor: pointer;
+  }
+  .btn {
+    margin-top: 15px;
+  }
+  

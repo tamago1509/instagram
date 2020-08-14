@@ -1,0 +1,80 @@
+.card-comment {
+    width: 330px;
+    height: 600px;
+    margin-bottom: 20px;
+    margin-top: 0 !important;
+  }
+  .img-cover img {
+    width: 600px;
+    height: 600px;
+  }
+  @media screen and (max-width: 768px) {
+    .card {
+      width: 80%;
+      left: 10%;
+    }
+  }
+  .card-cover {
+    position: relative;
+    background-color: #fafafa !important;
+  }
+  .comment {
+    border: none !important;
+  }
+  .icon-gr {
+    width: 100%;
+    display: flex;
+  }
+  
+  .status {
+    font-size: 20px;
+    margin-right: 10px;
+  }
+  .status.save {
+    margin-left: auto;
+  }
+  .status.save:hover {
+    color: #999;
+  }
+  .modal-cover p {
+    text-align: center;
+  }
+  .modal-cover p:hover {
+    cursor: pointer;
+  }
+  .danger {
+    color: #f5222d;
+  }
+  .button-text {
+    color: #1890ff;
+    margin-left: 50%;
+  }
+  .photo {
+    height: 400px;
+  }
+  .heart {
+    height: 20px;
+  }
+  .slide {
+    left: 16%;
+    margin-bottom: 20px;
+  }
+  .cardpost-cover-comment {
+    position: relative;
+    top: 60px;
+    display: flex;
+    justify-content: center;
+  }
+  .comment-info{
+    width: 100%;;
+  }
+  .comment-info p{
+    text-align: left;
+    margin:0;
+  }
+  .ant-card-meta-title{
+    text-align: left !important;
+  }
+  .comment-content{
+    height: 60%;
+  }
