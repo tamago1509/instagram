@@ -63,8 +63,9 @@ export class Header extends Component {
       visible: false,
     });
     const loginedUser = data.user
-    const url = await uploadImage(files)
+
     //upload to cloudinary
+    const url = await uploadImage(files)
     let res = await axios.post("https://cors-anywhere.herokuapp.com/https://rbb2q.sse.codesandbox.io/users",{
       nickname: loginedUser.username,
       img: url,
@@ -72,7 +73,8 @@ export class Header extends Component {
       avatar: "https://picsums.photos/200/300"
     })
 
-   
+    //show new post
+    
 
     // if(data.user !="{}"||data.user != {}){
     //   localStorage.setItem('user',JSON.stringify(data.user)) 
